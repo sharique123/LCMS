@@ -40,6 +40,12 @@ namespace LCMS.Core.ReadyTraining
     [XmlElement("body")]
     public TextWithColor Body { get; set; }
 
+    [XmlElement("question")]
+    public TextWithColor Question { get; set; }
+
+    [XmlElement("choice")]
+    public List<MultipleChoiceOptions> Choice { get; set; }
+
     [XmlElement("instructions",typeof(Cdata))]
     public Cdata Instructions { get; set; }
 

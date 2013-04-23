@@ -121,8 +121,12 @@ namespace LCMS.Core
           string findEndString = string.Format("</{0}>", nodeText);
           string replaceStartString = string.Format("<{0}><![CDATA[", nodeText);
           string replaceEndString = string.Format("]]></{0}>", nodeText);
-          xmlString.Replace(findStartString, replaceStartString);
-          xmlString.Replace(findEndString, replaceEndString);
+          if (!xmlString.ToString().Contains(replaceStartString))
+          {
+            xmlString.Replace(findStartString, replaceStartString);
+            xmlString.Replace(findEndString, replaceEndString);
+          }
+          
         }
       }
       return xmlString.ToString();
