@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<XmlToBeReplacedForJsonList>
+  <XmlToBeReplacedForJson>
+    <text>
+      <![CDATA[<?xml version="1.0" encoding="iso-8859-1"?>]]>
+    </text>
+    <replaceText>null</replaceText>
+  </XmlToBeReplacedForJson>
+  <XmlToBeReplacedForJson>
+    <text>
+      <![CDATA[<?xml version="1.0" encoding="utf-8"?>]]>
+    </text>
+    <replaceText>null</replaceText>
+  </XmlToBeReplacedForJson>
+  <XmlToBeReplacedForJson>
+    <text>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8"?>]]>
+    </text>
+    <replaceText>null</replaceText>
+  </XmlToBeReplacedForJson>
+  <XmlToBeReplacedForJson>
+    <text>
+      <![CDATA[.mp3"]]>
+    </text>
+    <replaceText>null</replaceText>
+  </XmlToBeReplacedForJson>
+  <XmlToBeReplacedForJson>
+    <text>
+      <![CDATA[.mp4"]]>
+    </text>
+    <replaceText>null</replaceText>
+  </XmlToBeReplacedForJson>
+  <XmlToBeReplacedForJson>
+    <text>
+      <![CDATA[.swf"]]>
+    </text>
+    <replaceText>null</replaceText>
+  </XmlToBeReplacedForJson>
+  <XmlToBeReplacedForJson>
+    <text>
+      <![CDATA[<htmltext>]]>
+    </text>
+    <replaceText>
+      <![CDATA[<htmltext><![CDATA[]]>
+    </replaceText>
+  </XmlToBeReplacedForJson>
+   <XmlToBeReplacedForJson>
+    <text>
+      <![CDATA[</htmltext>]]>
+    </text>
+    <replaceText>
+      <![CDATA[]]</htmltext>]]>
+    </replaceText>
+  </XmlToBeReplacedForJson>
+</XmlToBeReplacedForJsonList>

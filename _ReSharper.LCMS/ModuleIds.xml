@@ -1,0 +1,4 @@
+<Modules>
+  <Module PersistentId="43774CD4-C7C5-4E20-A54E-FB0DBF4D8F4C" ModuleId="LCMS.Api" />
+  <Module PersistentId="439B0433-51B9-4603-900D-816A13491658" ModuleId="LCMS.Core" />
+</Modules>
